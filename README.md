@@ -1,111 +1,70 @@
-🩺📋 Patient Registration System
+# Getting Started with Create React App
 
-A full-stack web-based **Patient Registration System** built with **React, Node.js, Express, PostgreSQL, and Tailwind CSS**. It streamlines the process of registering new patients, retrieving existing records, and printing detailed patient slips — complete with age-based clinic unit assignments.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
----
+## Available Scripts
 
-📌 Features
+In the project directory, you can run:
 
-- 🆕 Register new patients with required details
-- 🔁 Fetch existing patient data by contact number
-- 🔐 Generates unique Patient ID using contact
-- 🏥 Automatically assigns clinic units by age:
-  - Age 0–14 → Unit 1
-  - Age 15–40 → Random Unit 2/3/4
-  - Age 41+ → Unit 5
-- 🖨️ Generates printable patient slip on registration/fetch
-- 📄 Fields include:
-  - Name
-  - Age
-  - Gender
-  - Contact Number
-  - Email
-  - Aadhar Number
-  - Purpose of Visit (Dropdown)
-- ⚡ Fast and responsive UI with Tailwind CSS
-- 🌄 Clean background with blur effect
+### `npm start`
 
----
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-🧰 Tech Stack
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-| Frontend       | Backend        | Database     |
-|----------------|----------------|--------------|
-| React + Vite   | Node.js + Express | PostgreSQL |
-| Tailwind CSS   | REST API       | pg module    |
+### `npm test`
 
----
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-🚀 Setup Instructions
+### `npm run build`
 
-1. Clone this repository
-   ```bash
-   git clone https://github.com/Akshatsachdev/Patient-Registration-Form.git
-   cd Patient-Registration-Form
-   ```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-2. Install frontend dependencies
-   ```bash
-   cd frontend
-   npm install
-   npm run dev
-   ```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-3. Install backend dependencies
-   ```bash
-   cd ../server
-   npm install
-   node index.js
-   ```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-4. PostgreSQL Setup
-   - Create a database: `PatientDB`
-   - Make sure table creation is handled in `index.js` on server start.
+### `npm run eject`
 
----
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-🖼️ Preview
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-🧾 Patient Registration Form
-![image](https://github.com/user-attachments/assets/8bf967d2-c4fb-4618-becc-b5d2548efa17)
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-📋 Patient Slip
-![image](https://github.com/user-attachments/assets/c74366c1-9052-4d11-ad4a-8497f1e34a61)
+## Learn More
 
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
----
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-📄 Purpose of Visit Options
+### Code Splitting
 
-- Regular Checkup  
-- Follow-up  
-- Regular Investigation  
-- Certification  
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
----
+### Analyzing the Bundle Size
 
-🚀 Future Enhancements
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
--🧾 Download Patient Slip as PDF for digital storage and sharing
+### Making a Progressive Web App
 
--🔐 Add Admin/Reception Login with authentication & session management
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
--📂 Patient Visit History View for tracking return visits and treatments
+### Advanced Configuration
 
--📊 Dashboard Analytics to monitor patient flow and unit-wise distribution
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
--📱 Mobile-Friendly Design for tablet use at reception counters
+### Deployment
 
--🌐 Deploy with CI/CD for live updates and online access
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
----
+### `npm run build` fails to minify
 
-👨‍💻 Developed By
-Akshat Sachdev
-🔗 GitHub Profile
-
----
-
-🔗 Repository
-👉 View this project on GitHub
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
